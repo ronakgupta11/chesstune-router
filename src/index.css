@@ -11,6 +11,7 @@
   background: url(assets/bg.png);
   padding: 0;
   /* height: 85vh; */
+  min-height: 90vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
