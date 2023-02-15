@@ -14,21 +14,16 @@ export default function Root(){
                 <div className="nav-links">
                     <ul className="nav-link-list">
                         <li className="nav-link-list-item">
-                            <Link to={"/"}>Home</Link>
-
+                            <Link className="nav-Link" to={"/"}>Home</Link>
                         </li>
                         <li className="nav-link-list-item">
-                        <Link to={"/puzzles"}>Puzzles</Link>
-                            
-
+                        <Link className="nav-Link" to={"/puzzles"}>Puzzles</Link>
                         </li>
                         <li className="nav-link-list-item">
-                        <Link to={"/learn"}>Learn</Link>
-                            
+                        <Link className="nav-Link" to={"/learn"}>Learn</Link> 
                         </li>
                         <li className="nav-link-list-item">
-                        <Link to={"/register"}>Register</Link>
-                            
+                        <Link className="nav-Link" to={"/register"}>Register</Link> 
                         </li>
                     </ul>
 
